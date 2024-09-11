@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 a{
     text-decoration: none;
@@ -10,6 +11,9 @@ a{
 }
 li{
     list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
 }
 .container{
     width: 100%;
@@ -88,4 +92,59 @@ li{
     background-color: rgb(208, 134, 68);
     color: aqua;
     cursor: pointer;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+
+    margin-top: 200px;
+}
+.about h2{
+    font-size: 30px;
+    color: aqua;
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+}
+.left{
+    width: 500px;
+    height: 500px;
+}
+.right{
+    width: 700px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+}
+.about .right h3{
+    font-size: 20px;
+    color: brown;
+}
+.right li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitch{
+    color:#6441a5;
 }
