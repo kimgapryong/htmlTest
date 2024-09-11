@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 1200px;
+
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)) ,url(bg.png) no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.menu{
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    width: 100px;
+    text-align: center;
+}
+.menu li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.main{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+
+    margin-top: 200px;
+    text-align: center;
+
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.main h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.main p{
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.main button{
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+
+    border-radius: 30px;
+    background-color: transparent;
+
+    color: white;
+    border: 3px solid white ;
+}
+.main button:hover{
+    background-color: rgb(208, 134, 68);
+    color: aqua;
+    cursor: pointer;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+
+    margin-top: 200px;
+}
+.about h2{
+    font-size: 30px;
+    color: aqua;
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+}
+.left{
+    width: 500px;
+    height: 500px;
+}
+.right{
+    width: 700px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+}
+.about .right h3{
+    font-size: 20px;
+    color: brown;
+}
+.right li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitch{
+    color:#6441a5;
+}
